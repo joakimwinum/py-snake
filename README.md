@@ -15,13 +15,13 @@ There is a custom game engine class inside the game that takes care of mainly th
 
 The PHP version of the game can be found [here](https://github.com/joakimwinum/php-snake).
 
-## Getting Started
+## Usage
 
-Run the game in a CLI
+Run the game in a CLI:
 
-```python python-snake.py```
-
-```./python-snake.py```
+```console
+docker run -it --rm --name python-snake joakimwinum/python-snake
+```
 
 ## Authors
 
@@ -29,4 +29,4 @@ Run the game in a CLI
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/python-snake/blob/main/LICENSE) file for details
