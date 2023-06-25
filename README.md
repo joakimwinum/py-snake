@@ -1,4 +1,4 @@
-# Python Snake CLI Game
+# Py Snake CLI Game
 
 This is a CLI game written in Python 3.6 and ported from PHP.
 
@@ -20,7 +20,7 @@ The PHP version of the game can be found [here](https://github.com/joakimwinum/p
 Run the game in a CLI:
 
 ```console
-docker run -it --rm --name python-snake joakimwinum/python-snake
+docker run -it --rm --name py-snake joakimwinum/py-snake
 ```
 
 ## Authors
@@ -29,4 +29,4 @@ docker run -it --rm --name python-snake joakimwinum/python-snake
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/python-snake/blob/main/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/joakimwinum/py-snake/blob/main/LICENSE) file for details

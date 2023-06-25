@@ -21,7 +21,7 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-"""Python Snake CLI Game
+"""Py Snake CLI Game
 
 This is an implementation of the classic snake game.
 
@@ -31,7 +31,7 @@ https://github.com/joakimwinum/php-snake
 Author: Joakim Winum Lien <joakim@winum.xyz>
 License: https://opensource.org/licenses/mit-license.html MIT License
 Version: 1.0.0
-Repository: https://github.com/joakimwinum/python-snake
+Repository: https://github.com/joakimwinum/py-snake
 """
 
 import os
@@ -406,8 +406,8 @@ def key_actions():
                 dev_mode = True
 
 
-class PythonGameEngine:
-    """Class PythonGameEngine
+class PyGameEngine:
+    """Class PyGameEngine
 
     The game engine takes care of mainly three things:
     * clearing the screen
@@ -663,7 +663,7 @@ class PythonGameEngine:
 
 # init
 
-engine = PythonGameEngine()
+engine = PyGameEngine()
 
 
 # settings
@@ -691,7 +691,7 @@ snake_len = 0
 snake_old_len = 0
 total_number_of_frames = 0
 increase_interval = 1
-global_game_title = snake_sprite+' Python Snake '+right_pointing_triangle_sprite
+global_game_title = snake_sprite+' Py Snake '+right_pointing_triangle_sprite
 key = None
 left_margin = ' '
 screen = None
